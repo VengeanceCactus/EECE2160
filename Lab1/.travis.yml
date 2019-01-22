@@ -1,0 +1,9 @@
+language: cpp
+
+script:
+  - g++ helloworld/hello.cc -o hello
+  - diff <(./hello) <(echo hello)
+  - g++ sort/array.cc -o array
+  - diff <(./array <.test_input) .test_output
+
+

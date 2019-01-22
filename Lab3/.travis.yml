@@ -1,0 +1,5 @@
+language: cpp
+
+script:
+  - cd list/.test
+  - bash test.sh

@@ -1,0 +1,6 @@
+*.o
+acc/acc
+behavior/acc
+button/button
+led/acc
+pos/acc

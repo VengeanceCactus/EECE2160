@@ -1,0 +1,5 @@
+language: cpp
+
+script:
+  - cd array/.test
+  - bash test.sh
